@@ -1,25 +1,24 @@
 @charset "utf-8";
 
 .header {
+  z-index: 100;
   padding: 15px 0;
   width: 100%;
-  display: table;
   position: fixed;
   background-color: #fff;
 }
 
 .icon-bolt {
   float: left;
-  display: table-cell;
 }
 .header-contact {
   float: right;
-  display: table-cell;
   background-color: #74cfae;
   font-size: 12px;
   padding: 14px 12px;
   transition: .3s;
   color: #fff;
+  text-decoration: none;
 }
 .header-contact:hover {
   cursor: pointer;
@@ -40,6 +39,9 @@ body {
 	clear: both;
 }
 /* -------------bolt them----------------- */
+.main-padding {
+  padding-top: 78px;
+}
 .title {
   background-color: #f2f2f2;
   padding: 250px 0;
@@ -94,9 +96,14 @@ h1 {
   font-size: 24px;
 }
 /* --- */
+
+.imagelist {
+  margin-top: 40px;
+}
 .our-latest-pic {
   float: left;
-  margin: 40px 100px 40px 0;
+  margin-left: 100px;
+  /* margin-top: 40px;  */
   opacity: .7;
   transition: .3s;
 }
@@ -104,14 +111,19 @@ h1 {
   opacity: 1;
 }
 
-.our-latest-pic:nth-child(3n) {
-  margin-right: 0;
+.our-latest-pic:nth-child(n+4) {
+  margin-top: 80px;
 }
-
+.our-latest-pic:nth-child(3n+1) {
+  margin-left: 0;
+}
+.latest-work-under {
+  margin-top: 50px;
+}
 .our-latest-work-p {
-  margin: 50px 90px  0 0;
   display: inline-block;
   width: 65%;
+  margin-right: 90px;
 }
 
 .email-me {
@@ -122,6 +134,7 @@ h1 {
   transition: .3s;
   display: inline-block;
   vertical-align : middle;
+  text-decoration: none;
 }
 .email-me:hover {
   cursor: pointer;
@@ -141,7 +154,9 @@ h1 {
 .our-skills h2 {
   text-align: center;
   font-size: 24px;
-  padding-bottom: 70px;
+}
+.spacebox {
+  margin-top:70px;
 }
 .skillsfont {
   font-size: 16px;
@@ -161,17 +176,19 @@ h1 {
 
 .nav-list {
   background-color: #f2f2f2;
-  padding: 200px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
 }
 .nav-box {
   text-align: center;
   display: inline-block;
+  width: 185px;
 }
 .nav-font {
   display: block;
   box-sizing: border-box;
-  width: 185px;
+  width: 100%;
   padding: 40px;
   color: #74cfae;
   transition: .3s;
@@ -184,15 +201,9 @@ h1 {
 .footer {
   padding-top: 20px;
   padding-bottom: 25px;
-  background-color: #74cfae;
-  
-}
-.footer-position {
-}
-.footer-font {
   color: #fff;
-  float: right;
-
+  background-color: #74cfae;
+  text-align: right;
 }
 
 /* ----PC---- */
