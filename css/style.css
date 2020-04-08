@@ -1,24 +1,24 @@
 @charset "utf-8";
 
 .header {
-  z-index: 100;
-  padding: 15px 0;
-  width: 100%;
-  position: fixed;
   background-color: #fff;
+  padding: 15px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 }
 
 .icon-bolt {
   float: left;
 }
 .header-contact {
-  float: right;
   background-color: #74cfae;
+  color: #fff;
+  float: right;
   font-size: 12px;
   padding: 14px 12px;
-  transition: .3s;
-  color: #fff;
   text-decoration: none;
+  transition: .3s;
 }
 
 .header-contact:hover {
@@ -26,8 +26,8 @@
   color: #333;
 }
 body {
-  font-family: "Lato","Raleway"; 
   color: #333;
+  font-family: "Lato","Raleway"; 
 }
 .inner {
   margin: 0 auto;
@@ -36,28 +36,28 @@ body {
 
 .clearfix:after {
   content: "";
-	display: block;
 	clear: both;
+	display: block;
 }
 
 .humburger-parent {
-  position: relative;
-  width: 50px;
-  height: 40px;
-  float: right;
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 4px;
+  float: right;
+  height: 40px;
+  position: relative;
+  width: 50px;
 }
 .humburger-parent:hover {
   cursor: pointer;
 }
 .hum-line {
-  position: absolute;
-  left: 10px;
-  width: 30px;
-  height: 1px;
   background-color: #ddd;
+  height: 1px;
+  left: 10px;
+  position: absolute;
+  width: 30px;
 }
 .hum-top {
   top: 9px;
@@ -80,14 +80,14 @@ body {
   text-align: center;
 }
 h1 {
+  color: #74cfae;
   font-size: 90px;
   font-weight: 700;
-  color: #74cfae;
   margin-bottom: 20px;
 }
 .bolt-theme-p {
-  font-size: 30px;
   color: #c0c0c0;
+  font-size: 30px;
 }
 /* ---------what we can do------------ */
 
@@ -99,10 +99,10 @@ h1 {
   float: left;
 }
 .what-we-can-do-right {
-  margin-left: 200px;
   color: #fff;
-  text-align: center;
   float: left;
+  margin-left: 200px;
+  text-align: center;
   width: 60%;
 }
 .what-we-can-do-right h2 {
@@ -110,17 +110,17 @@ h1 {
 }
 .what-we-can-do-p {
   font-size: 20px;
-  margin-top: 35px;
   line-height: 1.5;
+  margin-top: 35px;
 }
 
 /* ---------our latest work----------- */
 
 .our-latest-work {
+  background-color: #f2f2f2;
   text-align: center;
   padding-top: 60px;
   padding-bottom: 70px;
-  background-color: #f2f2f2;
 }
 .our-latest-work h2 {
   font-size: 24px;
@@ -158,19 +158,19 @@ img {
 }
 .our-latest-work-p {
   display: inline-block;
-  width: 65%;
   margin-right: 90px;
+  width: 65%;
 }
 
 .email-me {
-  font-size: 12px;
-  padding: 14px 20px;
   background-color: #74cfae;
   color: #fff;
-  transition: .3s;
   display: inline-block;
-  vertical-align : middle;
+  font-size: 12px;
+  padding: 14px 20px;
+  transition: .3s;
   text-decoration: none;
+  vertical-align : middle;
 }
 .email-me:hover {
   cursor: pointer;
@@ -181,15 +181,15 @@ img {
 /* --------------our skills----------------- */
 
 .our-skills {
-  text-align: center;
   background-color: #4e4e4e;
+  color: #f2f2f2;
   padding-top: 70px;
   padding-bottom: 100px;
-  color: #f2f2f2;
+  text-align: center;
 }
 .our-skills h2 {
-  text-align: center;
   font-size: 24px;
+  text-align: center;
 }
 .spacebox {
   margin-top:70px;
@@ -199,37 +199,36 @@ img {
   margin-top: 15px;
 }
 .skillscircle {
-  margin-left: 180px;
   display: inline-block;
+  margin-left: 180px;
   text-align: center;
 }
 .skillscircle:first-child {
   margin-left: 0;
 }
 
-
 /* ------------------nav------------------- */
 
 .nav-list {
   background-color: #f2f2f2;
+  font-size:0;
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
-  font-size:0;
 }
 .nav-box {
-  text-align: center;
   display: inline-block;
-  width: 185px;
   font-size: 16px;
+  text-align: center;
+  width: 185px;
 }
 .nav-font {
-  display: block;
   box-sizing: border-box;
-  width: 100%;
-  padding: 40px;
   color: #74cfae;
+  display: block;
+  padding: 40px;
   transition: .3s;
+  width: 100%;
 }
 .nav-font:hover {
   background-color: #fff;
@@ -237,10 +236,10 @@ img {
 }
 /* -----------------footer--------------------- */
 .footer {
+  background-color: #74cfae;
+  color: #fff;
   padding-top: 20px;
   padding-bottom: 25px;
-  color: #fff;
-  background-color: #74cfae;
   text-align: right;
 }
 
@@ -271,8 +270,8 @@ img {
     
   }
   .what-we-can-do-right {
-    margin: 0 auto;
     float: none;
+    margin: 0 auto;
   }
   .what-we-can-do-right h2 {
     font-size: 24px;
@@ -303,17 +302,17 @@ img {
   }
   .our-latest-work-p {
     display: block;
-    width: 100%;
     text-align: center;
+    width: 100%;
   }
   .email-me {
     margin-top: 40px;
   }
   /* --------------our skills----------------- */
   .skillscircle {
+    display: block;
     margin-left: 0;
     margin-top: 88px;
-    display: block;
   }
   .skillscircle:first-child {
     margin-top: 0;
@@ -341,16 +340,16 @@ img {
 
   
   .what-we-can-do {
-    text-align: center;
     padding-bottom: 25px;
+    text-align: center;
   }
   .iphone {
     float: none;
     
   }
   .what-we-can-do-right {
-    margin: 0 auto;
     float: none;
+    margin: 0 auto;
   }
   .what-we-can-do-right h2 {
     font-size: 24px;
@@ -378,17 +377,17 @@ img {
   }
   .our-latest-work-p {
     display: block;
-    width: 100%;
     text-align: center;
+    width: 100%;
   }
   .email-me {
     margin-top: 40px;
   }
   /* --------------our skills----------------- */
   .skillscircle {
+    display: block;
     margin-left: 0;
     margin-top: 88px;
-    display: block;
   }
   .skillscircle:first-child {
     margin-top: 0;
@@ -397,14 +396,11 @@ img {
   
   .nav-list {
     padding: 50px 15px;
-    /* font-size: 24px; */
   }
-  /* .nav-pad {
-    font-size: 0;
-  } */
+ 
   .nav-box {
+    display: block;
     font-size: 16px;
     width: 100%;
-    display: block;
   }
 }
