@@ -68,7 +68,6 @@ body {
 .hum-bottom {
   top: 29px;
 }
-/* -------------bolt them----------------- */
 .main-padding {
   padding-top: 78px;
 }
@@ -89,7 +88,6 @@ h1 {
   color: #c0c0c0;
   font-size: 30px;
 }
-/* ---------what we can do------------ */
 
 .what-we-can-do {
   background-color: #74cfae;
@@ -114,8 +112,6 @@ h1 {
   margin-top: 35px;
 }
 
-/* ---------our latest work----------- */
-
 .our-latest-work {
   background-color: #f2f2f2;
   text-align: center;
@@ -125,8 +121,6 @@ h1 {
 .our-latest-work h2 {
   font-size: 24px;
 }
-
-/* ---------------------------- */
 
 .imagelist {
   margin-top: 40px;
@@ -177,9 +171,6 @@ img {
   color: #333;
 }
 
-
-/* --------------our skills----------------- */
-
 .our-skills {
   background-color: #4e4e4e;
   color: #f2f2f2;
@@ -207,8 +198,6 @@ img {
   margin-left: 0;
 }
 
-/* ------------------nav------------------- */
-
 .nav-list {
   background-color: #f2f2f2;
   font-size:0;
@@ -234,7 +223,6 @@ img {
   background-color: #fff;
   cursor: pointer;
 }
-/* -----------------footer--------------------- */
 .footer {
   background-color: #74cfae;
   color: #fff;
@@ -243,43 +231,36 @@ img {
   text-align: right;
 }
 
-/* ----PC---- */
 @media(min-width: 1200px){
   .humburger-parent {
     display: none;
   }
-  
 }
 
 /* ----TAB---- */
-@media (min-width: 768px) and (max-width: 1199px){
+@media (max-width: 1199px){
   .humburger-parent {
     display: none;
   }
-  
   .inner {
     width: 97%;
   }
-  
   .what-we-can-do {
     text-align: center;
     padding-bottom: 25px;
   }
   .iphone {
     float: none;
-    
   }
   .what-we-can-do-right {
     float: none;
     margin: 0 auto;
+    width: 100%;
   }
   .what-we-can-do-right h2 {
     font-size: 24px;
     margin-top: 20px;
   }
-  
-  /* --------- */
-  
   .imagelist {
     margin-top: 40px;
   }
@@ -292,11 +273,11 @@ img {
   }
   .our-latest-pic:nth-child(3n+1) {
     margin-left: 0;
-  }
-  .our-latest-pic:nth-child(4) {
     margin-top: 80px;
   }
-  
+  .our-latest-pic:first-child {
+    margin-top: 0;
+  }
   .latest-work-under {
     margin-top: 80px;
   }
@@ -308,7 +289,6 @@ img {
   .email-me {
     margin-top: 40px;
   }
-  /* --------------our skills----------------- */
   .skillscircle {
     display: block;
     margin-left: 0;
@@ -317,87 +297,34 @@ img {
   .skillscircle:first-child {
     margin-top: 0;
   }
+  .nav-box {
+    width: 25%;
+  }
 }
-
-/* ----SP---- */
 
 @media (max-width:767px){
   .header-contact{
     display: none;
   }
-  .inner {
-    width: 97%;
-  }
-
   .title {
     padding-top: 160px;
     padding-bottom: 130px;
   }
- 
   h1 {
     font-size: 80px;
-  }
-
-  
-  .what-we-can-do {
-    padding-bottom: 25px;
-    text-align: center;
-  }
-  .iphone {
-    float: none;
-    
   }
   .what-we-can-do-right {
     float: none;
     margin: 0 auto;
+    width: 100%;
   }
   .what-we-can-do-right h2 {
     font-size: 24px;
     margin-top: 20px;
   }
-  
-  /* --------- */
-  
-  .imagelist {
-    margin-top: 40px;
-  }
-  .our-latest-pic {
-    float: none;
-    margin-left: 0;
-  }
-  .our-latest-pic:nth-child(n+4) {
-    margin-top: 0;
-  }
-  .our-latest-pic:nth-child(3n+1) {
-    margin-top: 80px;
-  }
-  
-  .latest-work-under {
-    margin-top: 80px;
-  }
-  .our-latest-work-p {
-    display: block;
-    text-align: center;
-    width: 100%;
-  }
-  .email-me {
-    margin-top: 40px;
-  }
-  /* --------------our skills----------------- */
-  .skillscircle {
-    display: block;
-    margin-left: 0;
-    margin-top: 88px;
-  }
-  .skillscircle:first-child {
-    margin-top: 0;
-  }
-  /* ------------------nav------------------- */
-  
   .nav-list {
     padding: 50px 15px;
   }
- 
   .nav-box {
     display: block;
     font-size: 16px;
